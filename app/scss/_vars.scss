@@ -1,0 +1,39 @@
+%Raleway-900 {
+  font-family: 'Raleway-Black', sans-serif;
+  font-weight: 900;
+}
+
+%Raleway-700 {
+  font-family: 'Raleway-Bold';
+  font-weight: 700;
+}
+
+%Raleway-500 {
+  font-family: 'Raleway-Medium';
+  font-weight: 500;
+}
+
+%Raleway-400 {
+  font-family: 'Raleway-Regular';
+  font-weight: 400;
+}
+
+%Cardo-400 {
+  font-family: 'Cardo-Italic';
+  font-weight: 400;
+}
+
+$default:#6C7279;
+$title: #2D3033;
+$h1: #FFFFFF;
+$acsent:#FF4343;
+$hover:#E71414;
+%btn {
+  background-color: $acsent;
+  text-transform: uppercase;
+  color: $h1;
+  @extend %Raleway-900;
+  padding: 28px 93px;
+  cursor: pointer;
+  border: none;
+}
