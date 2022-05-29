@@ -95,13 +95,14 @@
 .gallery {
   padding-bottom: 114px;
   &__inner {
-    display: flex;
     display: grid;
-    grid-template-columns: repeat(4, 378px);
-    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    justify-items: center;
   }
   &__item {
     position: relative;
+    max-width: 378px;
   }
   &__item-title {
     font-size: 24px;
@@ -123,16 +124,16 @@
     right: 0;
     bottom: 0;
     background-color: #FF4343;
-    opacity: 80%;
+    opacity: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    display: none;
-    transition: all .3s;
+    transition: all .9s;
   }
   &__item:hover .gallery__item-box {
-    display: flex;
+    background-color: #FF4343;
+    opacity: 80%;
   }
   &__item:active .gallery__item-box {
     background-color: #B90C0C;
@@ -223,6 +224,7 @@
       border-radius: 50%;
       margin-right: 25px;
       background-color: transparent;
+      cursor: pointer;
     }
   }
   .slick-active {
