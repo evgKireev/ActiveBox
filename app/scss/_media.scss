@@ -1,0 +1,365 @@
+                               @media(max-width:1170px) {
+                                 .team {
+                                   padding-bottom: 78px;
+                                   &__item {
+                                     max-width: 227px;
+                                   }
+                                   &__item-images {
+                                     margin-bottom: 25px;
+                                   }
+                                   &__item-name {
+                                     font-size: 18px;
+                                     margin-bottom: 5px;
+                                   }
+                                   &__item-status {
+                                     font-size: 14px;
+                                     margin-bottom: 15px;
+                                   }
+                                   &__item-info {
+                                     margin-bottom: 38px;
+                                   }
+                                 }
+                               }
+                               
+                               @media(max-width:1074px) {
+                                 .menu {
+                                   margin-right: 0;
+                                   &__list-item+.menu__list-item {
+                                     margin-left: 55px;
+                                   }
+                                 }
+                                 .header-content {
+                                   &__title {
+                                     padding-top: 157px;
+                                     font-size: 48px;
+                                     margin-bottom: 62px;
+                                   }
+                                   &__text {
+                                     font-size: 18px;
+                                     margin-bottom: 89px;
+                                   }
+                                   &__btn {
+                                     margin-bottom: 6px;
+                                   }
+                                 }
+                                 .team {
+                                   padding-bottom: 78px;
+                                   &__item {
+                                     max-width: 227px;
+                                   }
+                                   &__item-images {
+                                     margin-bottom: 25px;
+                                   }
+                                   &__item-name {
+                                     font-size: 18px;
+                                     margin-bottom: 5px;
+                                   }
+                                   &__item-status {
+                                     font-size: 14px;
+                                     margin-bottom: 15px;
+                                   }
+                                   &__item-info {
+                                     margin-bottom: 38px;
+                                   }
+                                 }
+                                 .footer-top {
+                                   padding: 46px 0 41px;
+                                   &__location-title,
+                                   &__social-title,
+                                   &__about-title {
+                                     font-size: 14px;
+                                     margin-bottom: 30px;
+                                   }
+                                   &__location-link,
+                                   &__about-text {
+                                     font-size: 14px;
+                                   }
+                                 }
+                                 .footer-bottom {
+                                   &__copu {
+                                     font-size: 14px;
+                                   }
+                                 }
+                               }
+                               
+                               @media(max-width:1024px) {
+                                 .info {
+                                   padding: 78px 0 79px;
+                                   &__inner {
+                                     display: grid;
+                                     grid-template-columns: repeat(3, 1fr);
+                                     gap: 50px 20px;
+                                   }
+                                   &__item-title {
+                                     font-size: 18px;
+                                     @extend%Raleway-900;
+                                     color: $title;
+                                     margin: 45px 0 25px;
+                                   }
+                                   &__item-text {
+                                     font-size: 14px;
+                                   }
+                                 }
+                                 .gallery {
+                                   padding-bottom: 78px;
+                                   &__item-title {
+                                     font-size: 18px;
+                                     margin-bottom: 35px;
+                                   }
+                                   &__item-text {
+                                     font-size: 16px;
+                                   }
+                                 }
+                                 .slider {
+                                   padding-bottom: 78px;
+                                   &__content {
+                                     margin-left: 88px;
+                                   }
+                                   &__item-blockquote {
+                                     font-size: 24px;
+                                     margin-bottom: 25px;
+                                   }
+                                   &__item-text {
+                                     font-size: 12px;
+                                   }
+                                 }
+                               }
+                               
+                               @media(max-width:970px) {
+                                 .team {
+                                   &__inner {
+                                     display: grid;
+                                     grid-template-columns: repeat(2, 1fr);
+                                     gap: 25px;
+                                   }
+                                   &__item {
+                                     width: 100%;
+                                   }
+                                 }
+                                 .footer-top {
+                                   padding: 34px 0;
+                                   &__inner {
+                                     display: flex;
+                                     flex-direction: column;
+                                   }
+                                   &__location {
+                                     max-width: 100%;
+                                     margin-bottom: 70px;
+                                   }
+                                   &__social {
+                                     max-width: 100%;
+                                     margin-bottom: 60px;
+                                   }
+                                   &__about {
+                                     max-width: 100%;
+                                     margin-bottom: 0;
+                                   }
+                                   &__location-title,
+                                   &__social-title,
+                                   &__about-title {
+                                     margin-bottom: 20px;
+                                   }
+                                 }
+                               }
+                               
+                               @media(max-width:910px) {
+                                 .menu {
+                                   &__list-item+.menu__list-item {
+                                     margin-left: 35px;
+                                   }
+                                 }
+                                 .header-content {
+                                   &__title {
+                                     padding-top: 140px;
+                                     font-size: 37px;
+                                   }
+                                 }
+                                 .info {
+                                   &__inner {
+                                     display: grid;
+                                     grid-template-columns: repeat(2, 1fr);
+                                     gap: 50px 20px;
+                                   }
+                                 }
+                                 .slider {
+                                   &__inner {
+                                     display: flex;
+                                     flex-wrap: wrap;
+                                   }
+                                   &__content {
+                                     margin: 0;
+                                     text-align: center;
+                                     padding: 30px 10px 50px;
+                                   }
+                                   &__images {
+                                     width: 100%;
+                                   }
+                                   &__item-img {
+                                     width: 100%;
+                                   }
+                                 }
+                               }
+                               
+                               @media(max-width:810px) {
+                                 .menu {
+                                   &__list {
+                                     position: absolute;
+                                     top: 110px;
+                                     left: 0;
+                                     width: 100%;
+                                     flex-direction: column;
+                                     align-items: center;
+                                     transform: translateY(-400px);
+                                     transition: all .3s;
+                                     background-image: url(..//images/bg.jpg);
+                                     background-position: center center;
+                                     background-repeat: no-repeat;
+                                     background-attachment: fixed;
+                                     &.menu__list--active {
+                                       transform: translateY(0);
+                                       transition: all .3s;
+                                     }
+                                   }
+                                   &__list-item {
+                                     width: 100%;
+                                     text-align: center;
+                                     justify-content: center;
+                                     padding: 0 15px;
+                                   }
+                                   &__list-item+.menu__list-item {
+                                     margin-left: 0;
+                                   }
+                                   &__list-link {
+                                     padding: 20px 0;
+                                     display: block;
+                                     &:hover {
+                                       border-bottom: 1px solid #BABBC5;
+                                     }
+                                     &:active {
+                                       border-bottom: 1px solid #E71414;
+                                     }
+                                   }
+                                   &__btn {
+                                     display: block;
+                                     background-color: transparent;
+                                     padding: 0;
+                                     border: none;
+                                     margin-right: 10px;
+                                     margin-left: auto;
+                                     position: relative;
+                                   }
+                                 }
+                                 .gallery {
+                                   &__item-title {
+                                     font-size: 16px;
+                                     margin-bottom: 30px;
+                                   }
+                                   &__item-text {
+                                     font-size: 14px;
+                                   }
+                                 }
+                               }
+                               
+                               @media(max-width:645px) {
+                                 .header-content {
+                                   &__title {
+                                     font-size: 36px;
+                                   }
+                                   &__text {
+                                     font-size: 14px;
+                                   }
+                                 }
+                                 .info {
+                                   &__inner {
+                                     display: grid;
+                                     grid-template-columns: repeat(1, 1fr);
+                                     gap: 50px 20px;
+                                   }
+                                 }
+                                 .gallery {
+                                   padding-bottom: 35px;
+                                   &__inner {
+                                     display: grid;
+                                     grid-template-columns: repeat(2, 1fr);
+                                     gap: 0;
+                                   }
+                                 }
+                               }
+                               
+                               @media(max-width:415px) {
+                                 .header {
+                                   padding-bottom: 52px;
+                                 }
+                                 .header-content {
+                                   &__title {
+                                     padding-top: 50px;
+                                     margin-bottom: 33px;
+                                   }
+                                   &__text {
+                                     margin-bottom: 50px;
+                                     line-height: 17px;
+                                   }
+                                   &__btn {
+                                     padding: 17px 45px;
+                                   }
+                                 }
+                                 .info {
+                                   padding: 40px 0 35px;
+                                   &__inner {
+                                     gap: 41px;
+                                   }
+                                   &__item-title {
+                                     margin: 30px 0 20px;
+                                   }
+                                 }
+                                 .team {
+                                   padding-bottom: 35px;
+                                   &__inner {
+                                     display: flex;
+                                   }
+                                   &__item {
+                                     max-width: 100%;
+                                     margin-bottom: 50px;
+                                   }
+                                   &__item-images {
+                                     width: 100%;
+                                     img {
+                                       width: 100%;
+                                     }
+                                   }
+                                   &__item-name {
+                                     font-size: 18px;
+                                   }
+                                   &__item-status {
+                                     font-size: 14px;
+                                   }
+                                   &__item-info {
+                                     font-size: 14px;
+                                   }
+                                 }
+                                 .slider {
+                                   padding-bottom: 35px;
+                                 }
+                                 .download {
+                                   padding-bottom: 45px;
+                                   &__title {
+                                     font-size: 18px;
+                                     margin-bottom: 10px;
+                                   }
+                                   &__subtitle {
+                                     font-size: 13px;
+                                     margin-bottom: 65px;
+                                   }
+                                   &__btn {
+                                     @extend%btn;
+                                     font-size: 18px;
+                                     padding: 20px 70px;
+                                     &:hover {
+                                       background-color: #E71414;
+                                     }
+                                     &:active {
+                                       background-color: #FF4343;
+                                     }
+                                   }
+                                 }
+                               }

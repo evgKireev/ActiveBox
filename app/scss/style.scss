@@ -2,7 +2,6 @@
   @import 'fonts';
   @import 'reset';
   @import 'global';
-  @import 'media';
   @import 'libs';
   .header {
     padding-bottom: 120px;
@@ -21,6 +20,9 @@
   
   .menu {
     margin-right: 25px;
+    &__btn {
+      display: none;
+    }
     &__list {
       display: flex;
     }
@@ -64,6 +66,7 @@
       color: $h1
     }
     &__btn {
+      font-size: 24px;
       @extend%btn;
       display: block;
       margin: 0 auto;
@@ -80,7 +83,7 @@
     padding: 116px 0 133px;
     &__inner {
       display: grid;
-      grid-template-columns: repeat(3, 370px);
+      grid-template-columns: repeat(3, 1fr);
       gap: 88px 31px;
       text-align: center;
     }
@@ -146,6 +149,7 @@
     &__inner {
       display: flex;
       justify-content: space-between;
+      flex-wrap: wrap;
     }
     &__item {
       max-width: 270px;
@@ -190,11 +194,19 @@
       background-color: #5C3249;
       display: flex !important;
       justify-content: center !important;
+      align-items: center;
+    }
+    &__item-images {
+      max-width: 741px;
+      height: 490px;
+    }
+    &__item-img {
+      width: 741px;
     }
     &__content {
       max-width: 471px;
       margin-left: 129px;
-      padding-top: 116px;
+      // padding-top: 116px;
     }
     &__item-blockquote {
       @extend%Cardo-400;
@@ -311,3 +323,5 @@
       }
     }
   }
+  
+  @import 'media';
