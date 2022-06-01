@@ -212,7 +212,7 @@
                                      transform: translateY(-400px);
                                      transition: all .3s;
                                      background-image: url(..//images/bg.jpg);
-                                     background-position: center center;
+                                     background-position: center bottom;
                                      background-repeat: no-repeat;
                                      background-attachment: fixed;
                                      &.menu__list--active {
@@ -247,6 +247,23 @@
                                      margin-right: 10px;
                                      margin-left: auto;
                                      position: relative;
+                                     cursor: pointer;
+                                   }
+                                   &__btn--active {
+                                     path {
+                                       transition: transform .3s;
+                                     }
+                                     .path-1 {
+                                       transform: rotate(45deg);
+                                       transform-origin: -1px 3px;
+                                     }
+                                     .path-2 {
+                                       display: none;
+                                     }
+                                     .path-3 {
+                                       transform: rotate(-45deg);
+                                       transform-origin: 0px 13px;
+                                     }
                                    }
                                  }
                                  .gallery {
