@@ -131,6 +131,7 @@
                                      display: grid;
                                      grid-template-columns: repeat(2, 1fr);
                                      gap: 25px;
+                                     justify-items: center;
                                    }
                                    &__item {
                                      width: 100%;
