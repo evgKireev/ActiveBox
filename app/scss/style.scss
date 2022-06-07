@@ -40,10 +40,12 @@
       text-transform: uppercase;
       padding-bottom: 40px;
       &:hover {
+        color: #BABBC5;
         border-bottom: 3px solid #BABBC5;
       }
       &:active {
         border-bottom: 3px solid #E71414;
+        color: #E71414
       }
     }
   }
