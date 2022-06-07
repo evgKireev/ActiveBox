@@ -310,6 +310,9 @@
       width: 39px;
       height: 39px;
       fill: none;
+      &:hover {
+        opacity: 60%;
+      }
     }
   }
   
