@@ -38,7 +38,7 @@
       @extend%Raleway-700;
       color: $h1;
       text-transform: uppercase;
-      padding-bottom: 40px;
+      padding-bottom: 38px;
       &:hover {
         color: #BABBC5;
         border-bottom: 3px solid #BABBC5;
@@ -103,7 +103,6 @@
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       gap: 0;
-      // justify-items: center;
     }
     &__item {
       position: relative;
