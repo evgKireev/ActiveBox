@@ -214,12 +214,13 @@
                                      transition: all .3s;
                                      background-image: url(..//images/bg.jpg);
                                      -webkit-background-image: url(..//images/bg.jpg);
-                                     background-position: center center;
+                                     background-position: center top;
                                      background-repeat: no-repeat;
                                      background-attachment: fixed;
                                      &.menu__list--active {
                                        transform: translateY(0);
                                        transition: all .3s;
+                                       height: 100vh;
                                      }
                                    }
                                    &__list-item {
